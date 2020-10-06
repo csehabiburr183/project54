@@ -1,0 +1,360 @@
+
+/* Customize CSS*/
+/* Main Coding */
+
+/* Initial Typography */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu', sans-serif;
+}
+button{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation section */
+section#MainNavigation {
+    background: white;
+    border-bottom: 1px solid #f5ecec;
+}
+@media(max-width: 768px){
+    #navRight{
+        display: none;
+    }
+}
+
+
+/* Secure Life Planet Section */
+section#SecureLife {
+    background-image: url(../img/SecureLife-Planet.png);
+    height: 760px;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media(max-width: 768px){
+    section#SecureLife {
+        height: 100vh;
+    }
+}
+.CustomSecureLife {
+    background: linear-gradient(#0000000f, #00000008);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 120%);
+    text-align: center;
+}
+
+.CustomSecureLife h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+@media(max-width: 768px){
+    .CustomSecureLife h2{
+        font-size: 30px;
+    }
+}
+
+.CustomSecureLife p {
+    font-weight: 400;
+    color: white;
+    font-size: 17px;
+}
+
+.quoteBtn {
+    border-radius: 20px;
+    width: 155px;
+}
+
+section.afterHeader {
+    margin-top: -190px;
+    position: sticky;
+}
+
+@media(max-width: 768px){
+    section.afterHeader {
+        margin-top: -110px;
+    }
+}
+
+
+/* Modal Section Start */
+
+.leftModalPlanet {
+    background: url(../img/Life-PlanetModal.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.leftModalPlanet h2 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.leftModalPlanet h5 {
+    text-align: center;
+    color: #484747;
+}
+
+section#modalPlanet {
+    padding-top: 60px;
+}
+.leftModalPlanet h2 span {
+    color: #E03448;
+}
+
+@media(max-width:768px){
+    .myLeftModal {
+        background: #d2d2d2;
+    }
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  color: #E03448;
+  border-color: #E03448;
+  border: 8px solid;
+  height: 30px;
+  width: 30px;
+  margin: -8px;
+}
+
+.custom-control-input:checked~.custom-control-label.red::before {
+  background-color: #ffffff;
+}
+.quotebtn {
+    background: #E03448;
+    padding: 12px 40px;
+    margin-top: 15px;
+    border-radius: 40px;
+}
+
+.lastWrapModal {
+    padding-top: 40px;
+}
+
+p.TermsPara {
+    font-family: poppins;
+}
+
+p.TermsPara span {
+    color: #337bea;
+}
+
+h2.forBuy {
+    font-size: 26px;
+    padding: 22px 0px;
+}
+
+.twowrapModal {
+    margin: 25px 0px;
+}
+.firstWrapModal {
+    margin-top: 40px;
+}
+
+section#modalPlanet input, section#modalPlanet select {
+    border-radius: 20px;
+    height: 45px;
+}
+
+/*Modal Section End */
+
+
+/* Suite SuitePlanet */
+.SuitePlanet1 {background: #0060D5;}
+
+.SuitePlanet2 {
+    background: #DF3347;
+    margin-top: 75px !important;
+}
+
+.SuitePlanet {
+    padding: 30px;
+    color: white;
+    border-radius: 4px;
+    margin-top: 90px;
+    height: 120px;
+}
+
+@media(max-width: 768px){
+    .SuitePlanet{
+        margin-top: 20px;
+    }
+    .SuitePlanet2 {
+        margin-top: 15px !important;
+    }
+}
+
+.SuitePlanet p {
+    font-family: ubuntu;
+    padding-top: 8px;
+}
+
+.SuitePlanet img {
+    padding-right: 17px;
+}
+
+/* Suite Planet Section End */
+
+/* Independent Planet Section Coding Below */
+
+section#independentLife {
+    margin-top: 40px;
+}
+
+.RightIndependent {
+    padding-top: 65px;
+}
+
+.RightIndependent p {
+    font-family: ubuntu;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+section#iconBoxCustom {
+    padding-top: 60px;
+}
+
+.boxIconic {
+    text-align: center;
+    padding: 20px;
+    height: 230px;
+    box-shadow: 1px 0px 3px 1px #cacaca;
+    border-radius: 10px;
+    transition: all 0.6s;
+    font-family: ubuntu;
+    font-weight: 500;
+    color: #333232;
+}
+
+@media(max-width: 560px){
+    .boxIconic{
+        margin: 10px;
+    }
+}
+
+.boxIconic p {
+    padding: 17px;
+}
+
+.boxIconic:hover {
+    background: #015DCD;
+    color: white;
+}
+
+section#iconBoxCustomtwo {
+    padding-top: 40px;
+}
+
+.boxIconic img {
+    padding-top: 20px;
+}
+
+/* Two Icon Box End */
+
+/* Get Free Section Start Below */
+
+section#GetFree {
+    background: url(../img/bgquote.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    padding: 90px;
+    margin-top: 40px;
+}
+
+.FreeGet {
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+.btnQuote {
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+/* New non Smoker Section Below*/
+
+.LeftnonSmoker p {
+    font-size: 21px;
+    text-align: justify;
+    padding-top: 30px;
+}
+
+.LeftnonSmoker {
+    padding-top: 22px;
+}
+
+
+/*
+footer code
+*/
+
+footer#footerSection {
+    background: #202F64;
+    height: 100%;
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50%/100px 100px 0 0;
+    border-top: 15px solid #E03448;
+}
+
+.LogoFooter {
+    text-align: center;
+    margin: auto;
+    padding: 70px;
+}
+
+
+@media (max-width: 560px){
+    .LogoFooter{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 560px)
+.blank {
+    height: 208px;
+    top: 452px;
+}
+
+.footerleft, .footerleft a {
+    color: white;
+}
+
+p.footright {
+    color: #eaeaea;
+}
+
+
+
+
+/*top Shape*/
+
+.box {
+    height: 300px;
+    width: 100%;
+    background: #DC3347;
+    border-radius: 0 0 50% 50%;
+    transform: rotate(180deg);
+    margin-top: -247px;
+    position: absolute;
+    z-index: -2;
+}
+
+
+.box::after {
+    position: absolute;
+    content: "";
+    height: 160px;
+    background: white;
+    width: 100%;
+    border-radius: 0 0 50% 50%;
+}
